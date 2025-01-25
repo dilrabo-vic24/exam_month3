@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 SizedBox(height: 10.h),
                 SizedBox(
-                  height: 200,
+                  height: 230,
                   child: PageView.builder(
                     itemCount: furnitureProvider.productBannerData.length,
                     itemBuilder: (context, index) {
@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 SizedBox(
-                  height: 210.h,
+                  height: 250.h,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemCount: furnitureProvider.furnitureList.length,
