@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             "Enter your email to start shopping and get awesome deals today!",
                         textColor: AppColors.grayColor,
                         fontsize: 16.sp),
-                    SizedBox(height: 30.h),
+                    SizedBox(height: 50.h),
                     CustomFormField(
                       hintText: "Enter your phone",
                       labelText: "Phone Number",
@@ -58,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       furnitureProvider: furnitureProvider,
                       passwordController: password,
                     ),
-                    SizedBox(height: 10.h),
+                    SizedBox(height: 30.h),
                     NormalText(
                         text: "Forgot your password?",
                         textColor: AppColors.mainColor,
